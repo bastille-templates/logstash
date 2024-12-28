@@ -1,8 +1,8 @@
 ## Now apply template to container
 ```sh
-bastille bootstrap https://github.com/bastille-templates/openjdk
-bastille template openjdk bastille-templates/openjdk
-bastille pkg openjdk update
+bastille bootstrap https://github.com/bastille-templates/logstash
+bastille template logstash bastille-templates/logstash
+bastille pkg logstash update
 ```
 
 ## License

@@ -1,7 +1,9 @@
 ARG version=7
 
 # install required packages
-PKG openjdk${version}
+INCLUDE https://github.com/bastille-templates/openjdk/tree/v11
+
+PKG logstash${version}
 
 # enable
-SYSRC elasticsearch_java_home=/usr/local/openjdk${version}
+
