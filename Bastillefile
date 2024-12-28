@@ -6,4 +6,6 @@ INCLUDE https://github.com/bastille-templates/openjdk/tree/v11
 PKG logstash${version}
 
 # enable
+SYSRC logstash_enable=YES
 
+SERVICE logstash start
