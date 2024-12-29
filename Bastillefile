@@ -1,9 +1,8 @@
 ARG version=8
+ARG v_jdk=17
 
 # install required packages
-INCLUDE https://github.com/bastille-templates/openjdk/tree/v17
-
-PKG logstash${version}
+PKG logstash${version} openjdk${v_jdk}
 
 # enable
 SYSRC logstash_enable=YES
